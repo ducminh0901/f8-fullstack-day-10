@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/product.css" />
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="product-card">
+                    <input type="radio" name="color" id="red" hidden />
+                    <input type="radio" name="color" id="green" hidden />
+                    <input type="radio" name="color" id="blue" hidden />
+                    <input type="radio" name="color" id="purple" hidden />
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                    <div class="img">
+                        <img width="75%" src="./img/converse.png" alt="" />
+                    </div>
+                    <div class="price">60$</div>
+                    <div class="shoes-name">converse classic</div>
+                    <div class="detail">
+                        <div class="color">
+                            <p>Choose color :</p>
+                            <label for="red">
+                                <span class="red"></span>
+                            </label>
+                            <label for="green">
+                                <span class="green"></span>
+                            </label>
+                            <label for="blue">
+                                <span class="blue"></span>
+                            </label>
+                            <label for="purple">
+                                <span class="purple"></span>
+                            </label>
+                        </div>
+                        <div class="size">
+                            <p>Choose size :</p>
+                            <span>7</span>
+                            <span>7.5</span>
+                            <span>8</span>
+                            <span>8.5</span>
+                            <span>9</span>
+                            <span>9.5</span>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button>Buy now</button>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

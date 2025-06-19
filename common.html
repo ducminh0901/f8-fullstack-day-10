@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homework day 10</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+    </head>
+    <style>
+        body {
+            background: #eeaeca;
+            background: radial-gradient(
+                circle,
+                rgba(238, 174, 202, 1) 0%,
+                rgba(148, 187, 233, 1) 27%
+            );
+        }
+        .hw {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 10px;
+        }
+        .hw h1 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        .list-hw li a {
+            display: inline-block;
+            margin: 15px;
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+            font-size: 1.5rem;
+            transition: all ease 0.5s;
+        }
+        .list-hw li:hover a {
+            transform: scale(1.1);
+            color: #fff;
+            background-color: #3e0303;
+            border-radius: 5px;
+        }
+    </style>
+    <body>
+        <div class="hw">
+            <h1>Homework Day 10</h1>
+            <ul class="list-hw">
+                <li>
+                    <a href="./animation.html" target="_blank">Animation</a>
+                </li>
+                <li><a href="./product.html" target="_blank">Product</a></li>
+                <li>
+                    <a href="./profile-cards.html" target="_blank"
+                        >Profile Cards</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
